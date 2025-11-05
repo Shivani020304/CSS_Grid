@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card layout grid</title>
+</head>
+<body>
+    <div class="heading">
+    <h1>sports shoes</h1></div>
+    <div id="container">
+    
+       <div id="box1">
+        <h3>ITEM-1</h3>
+        <img src="https://imgs.search.brave.com/_c9oLrMDPtOW3YHzAtcclA0ZYacZHZo7UJgcxiY06bA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcx/MjI0NDY5L3Bob3Rv/L2NhbnZhcy1zaG9l/cy5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9b0Q1QTYxeHhn/bmEtMFdOYWZOY1p4/eVNTd0NpRW5VQ3M1/d2lESlZmYjJ0UT0" alt="shoes" height="80px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, magnam.</p>
+        <P>price- 1,200/-</P>
+        <p></p>
+       </div>
+       <div id="box2">
+        <h3>ITEM-2</h3>
+        <img src="https://media.gettyimages.com/id/185246744/photo/sports-shoe.jpg?s=612x612&w=0&k=20&c=d3KKioU6TLO_iyUdA0f-1BxKxBByR_8tU0I6FpMZzX8=" alt="shoes" height="80px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, magnam.</p>
+        <P>price- 1,000/-</P>
+       </div>
+       <div id="box3">
+        <h3>ITEM-3</h3>
+        <img src="https://imgs.search.brave.com/g42Y7Y8j9lt0PyLU_LPjk9Sr2KW-DA3P5kyIsUH36Fo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjIz/MjcwODM2L3Bob3Rv/L21vZGVybi1zcG9y/dC1zaG9lcy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9RDd4/T2l5VjNUTVFnVXVJ/cWxWdnV0UG80OWd5/TUc5ZjVVODJtY3Z1/RGMwWT0" alt="shoes" height="80px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, magnam.</p>
+        <P>price- 1,700/-</P>
+        </div>
+        <div id="box4">
+        <h3>ITEM-4</h3>
+        <img src="https://imgs.search.brave.com/0z_J5cKx7_FXiIZq7w4EoKHnbpNgEe5BWeCYjnbKtF0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9i/bHVlLXNwb3J0cy1z/aG9lLXVudGllZC1y/ZWFkeS13YWxraW5n/LWdlbmVyYXRlZC1i/eS1haV8xODg1NDQt/MjQ2NzkuanBnP3Np/emU9NjI2JmV4dD1q/cGc" alt="shoes" height="70px">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, magnam.</p>
+        <P>price- 1,500/-</P>
+       </div>
+    
+   </div>
+<style>
+    h1{
+        text-decoration: underline;
+    
+    }
+    h3{
+        text-decoration:underline;
+       color: rgb(42, 5, 58);
+
+    }
+    #container{
+        display: grid;
+        height:50vw;
+        background-color: rgb(202, 141, 141);
+        padding:40px;
+        grid-template-columns: repeat(4,1fr);
+       margin: 10px;
+        
+        
+    }
+    p:hover{
+        color:brown;
+    }
+    #box1{
+
+        height: 100%;
+        width: 100%;
+        background-color: blue;
+        border: 5px solid black;
+       
+    }
+    #box2{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(53, 134, 128);
+        border: 5px solid black;
+    }
+    #box3{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(255, 0, 208);
+        border: 5px solid black;
+       
+    }
+    #box4{
+         height: 100%;
+        width: 100%;
+        background-color: rgb(187, 129, 36);
+        border: 5px solid black;
+    }
+    .heading{
+        background-color: aqua;
+    }
+    
+</style>
+    
+</body>
+</html>
